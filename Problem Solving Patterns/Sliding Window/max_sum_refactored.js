@@ -1,4 +1,7 @@
-function maxSubarraySum(arr, num){
+// write a function to find the max sum of array elements
+// the second argument is the amount of sum number
+
+function maxSubarraySum(arr, num) {
   let maxSum = 0;
   let tempSum = 0;
   if (arr.length < num) return null;
@@ -13,4 +16,4 @@ function maxSubarraySum(arr, num){
   return maxSum;
 }
 
-maxSubarraySum([2,6,9,2,1,8,5,6,3],3)
+maxSubarraySum([100, 200, 300, 400], 3);
