@@ -1,3 +1,6 @@
+// write a function that accepts a variable number of arguments
+// checks whether there are any duplicates among the arguments passed in
+
 function areThereDuplicates(...args) {
   let start = 0;
   let next = 1;

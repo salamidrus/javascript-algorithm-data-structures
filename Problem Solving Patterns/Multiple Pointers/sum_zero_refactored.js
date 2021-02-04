@@ -1,3 +1,6 @@
+// write a function to check if there's any pair values that sum to zero
+// return the numbers
+
 function sumZero(arr) {
   let left = 0;
   let right = arr.length - 1;
@@ -13,4 +16,4 @@ function sumZero(arr) {
   }
 }
 
-sumZero([-4, -3, -2, -1, 0, 1, 2, 5]);
+sumZero([-4, -3, -2, -1, 0, 1, 2, 5]); // true, 1 + -1

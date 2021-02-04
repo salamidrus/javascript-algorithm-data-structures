@@ -1,3 +1,8 @@
+// Given a sorted array of integers and a target average
+// determine if there is a pair of values in the array
+// where the average of the pair equals the target average
+// there may be more than one pair that matches the average target
+
 function averagePair(arr, num) {
   // add whatever parameters you deem necessary - good luck!
   let start = 0;
