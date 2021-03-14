@@ -6,12 +6,13 @@ function same(arr1, arr2) {
     return false;
   }
   for (let i = 0; i < arr1.length; i++) {
-    let correctIndex = arr2.indexOf(arr1[i] ** 2);
+    // O(n)
+    let correctIndex = arr2.indexOf(arr1[i] ** 2); // O(n)
     if (correctIndex === -1) {
       return false;
     }
-    console.log(arr2);
-    arr2.splice(correctIndex, 1);
+
+    arr2.splice(correctIndex, 1); // O(n)
   }
   return true;
 }
